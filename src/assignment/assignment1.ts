@@ -68,7 +68,7 @@ function runTests1(): void {
         { input: "1", expected: 1, comment: 'Test case 5: Single bit' },
         { input: "10", expected: 2, comment: 'Test case 6: Multiple bits' },
         { input: "1011011", expected: 1, comment: 'Test case 7: Larger number of bits' },
-        { input: "", expected: 'Error -> Empty input', comment: 'Test case 4: Empty string' },
+        { input: "", expected: 'Error -> Empty input', comment: 'Test case 8: Empty string' },
     ];
 
     console.log("***** Running tests assignment 1... ******");
