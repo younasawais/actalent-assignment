@@ -10,7 +10,12 @@ type TestCase = {
 const modValue: number = 3; // If in the future the mod value changes, we can change it here
 const errMessageOnesAndZeros = "Please enter a valid binary number (only 1s and 0s).";
 
-// Main calculation function
+
+/**
+ * Calculates the mod-3 value of a binary string
+ * @param binary - Input binary string (e.g., "110")
+ * @returns Remainder when divided by 3 (0, 1, or 2)
+ */
 const modulusCalc = (binary: string, mod: number): ModResult => {
     let remainder: number = 0;
     
