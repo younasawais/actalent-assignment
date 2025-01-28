@@ -4,18 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Actalent Tests: Finite State Machine (FSM)</title>
-    <script src="./dist/assignment/assignment1.js"></script>
-    <script src="./dist/assignment/assignment2.js"></script>
+    <script src="./dist/assignment/assignmentIntro.js"></script>
+    <script src="./dist/assignment/assignmentStandard.js"></script>
+    <script src="./dist/assignment/assignmentAdvanced.js"></script>
 </head>
 <body>
     <div style="max-width: 800px; margin: auto; padding: 20px;">
-        <h1 style="font-family: Arial, sans-serif; color: #333;">Assignment 1: Modulo Three</h1>
+        <h1 style="font-family: Arial, sans-serif; color: #333;">Introduction: Modulo Three</h1>
         <input onchange="binaryInputChanged(event)" id="binaryInputMod3" type="number" placeholder="Enter binary number" style="padding: 10px; border-radius: 5px; border: 1px solid #ccc; width: 100%; max-width: 300px;">
         <p id="exResult1" style="font-family: Arial, sans-serif; color: #555;">Result: </p>
         <hr>
-        <h1 style="font-family: Arial, sans-serif; color: #333;">Assignment 2: Finite State Machine (FSM)</h1>
-        <input onchange="binaryFSMInputChanged(event)" id="binaryInputFSM" type="number" placeholder="Enter binary number" style="padding: 10px; border-radius: 5px; border: 1px solid #ccc; width: 100%; max-width: 300px;">
-        <p id="exResult2" style="font-family: Arial, sans-serif; color: #555;">Result: </p>
+        <h1 style="font-family: Arial, sans-serif; color: #333;">Assignment Standard: Finite State Machine (FSM)</h1>
+        <input onchange="binaryFSMStandardInputChanged(event)" id="binaryInputFSMStandard" type="number" placeholder="Enter binary number" style="padding: 10px; border-radius: 5px; border: 1px solid #ccc; width: 100%; max-width: 300px;">
+        <p id="resultStandard" style="font-family: Arial, sans-serif; color: #555;">Result: </p>
+        <hr>
+        <h1 style="font-family: Arial, sans-serif; color: #333;">Assignment Advanced: Finite State Machine (FSM)</h1>
+        <input onchange="binaryFSMAdvancedInputChanged(event)" id="binaryInputFSMAdvanced" type="number" placeholder="Enter binary number" style="padding: 10px; border-radius: 5px; border: 1px solid #ccc; width: 100%; max-width: 300px;">
+        <p id="resultAdvanced" style="font-family: Arial, sans-serif; color: #555;">Result: </p>
         <hr>
         <p style="color: red; font-family: Arial, sans-serif;">Please check console for all the tests.</p>
     </div>

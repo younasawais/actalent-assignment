@@ -51,7 +51,7 @@ function calculateMod3(binaryString: string): number | string {
 }
 
 // Event handler function
-const binaryFSMInputChanged = (e: Event): string | void => {
+const binaryFSMStandardInputChanged = (e: Event): string | void => {
     const target = e.target as HTMLInputElement;
     const binaryString: string = target.value;
     
@@ -65,7 +65,7 @@ const binaryFSMInputChanged = (e: Event): string | void => {
     
     const result: number | string = calculateMod3(binaryString);
     
-    const resultElement: HTMLElement | null = document.getElementById('exResult2');
+    const resultElement: HTMLElement | null = document.getElementById('resultStandard');
     if (resultElement) {
         resultElement.textContent = `Result: ${result}`;
     } else {
@@ -75,7 +75,7 @@ const binaryFSMInputChanged = (e: Event): string | void => {
 
 // Test cases function
 const runTests = (): void => {
-    console.log("***** Running tests assignment 2... ******");
+    console.log("***** Running tests assignment stadnard 2... ******");
     const testCases: TestCaseAssignment1[] = [
         { input: "110", expected: 0, comment: 'Test case 1: 1101' },
         { input: "1010", expected: 1, comment: 'Test case 2: 1010' },
@@ -95,14 +95,14 @@ const runTests = (): void => {
             `Test ${result === test.expected ? 'PASSED' : 'FAILED'}`
         );
     });
-    console.log("***** END tests assignment 2... ******\n\n");
+    console.log("***** END tests assignment stadnard 2... ******\n\n");
 }
 
 // Set up event listener when the DOM is loaded
 document.addEventListener('DOMContentLoaded', () => {
     const inputElement = document.getElementById('binaryInputFSM');
     if (inputElement) {
-        inputElement.addEventListener('change', binaryFSMInputChanged);
+        inputElement.addEventListener('change', binaryFSMStandardInputChanged);
     }
     
     // Run the tests
