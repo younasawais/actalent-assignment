@@ -1,7 +1,7 @@
 
 # Actalent Assignment
 
-This repository contains the solution for Actalent's assignments.
+This repository contains the solution for "Policy Reporter" assignments.
 
 ## Getting Started
 
@@ -17,7 +17,7 @@ To run the code:
 ## Structure
 
 - `index.html` - Main entry point that runs all tests
-- `src/assignements/assignment(1/2).js` - Contains the assignements
+- `src/assignements/....js` - Contains the assignements
 
 ## Test Results
 
@@ -32,3 +32,4 @@ make sure to enter the commands `npm install` and `npm run build` before opening
 
 ## Process and learning points
 While working on my coding assignments, I delved into understanding what a Finite State Machine (FSM) is by reading various online documents. I invested significant time in writing the logic. After installing TypeScript, I encountered errors due to duplicate variable assignments across separate files. To streamline my workflow, I wanted to auto-run the index.html file using an npm run start command, so I installed Webpack. This allowed me to export variables, reducing redundant code and types while bundling files in the dist folder. I spent a considerable amount of time configuring everything to work smoothly. Additionally, I installed Jest for testing purposes. However, as the codebase expanded significantly for just two assignments, I decided to restart the project, opting to use TypeScript with simple testing  (non jest) instead, I didnt had enough time for the last assignment.
+UPDATE: I have completed the last assignment and have updated the README.md file with the solution. There was a misunderstanding that only the first assignement which was an intro was required however the standard and advanced assigment has to be completed.
